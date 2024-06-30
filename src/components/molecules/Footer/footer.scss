@@ -1,0 +1,45 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5b5b5b;
+    padding: 20px 40px;
+
+    .logo {
+        width: 50px;
+        height: 50px;
+        transform: scale(3);
+        object-fit: contain;
+        cursor: pointer;
+    }
+
+    .social-wrapper {
+        display: flex;
+
+        .icon-wrapper {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 40px;
+            margin: 0px 10px;
+    
+            .icon-image {
+                width: 30px;
+                height: 30px;
+                object-fit: contain;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.copyright {
+    background-color: #404040;
+    padding: 10px 0;
+
+    p {
+        font-size: 14px;
+        color: #fff;
+        text-align: center;
+        margin: 0;
+    }
+}
